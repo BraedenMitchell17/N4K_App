@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NFTAppV3.Views.ShareKissPage">
+    <ContentPage.Content>
+        <Grid RowDefinitions="auto" ColumnDefinitions="auto" BackgroundColor="Black">
+            <Label Text="Permission to Share"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                   Grid.Row="1"
+                   Grid.ColumnSpan="2"/>
+
+            <Label x:Name="KissType"
+                   HorizontalOptions="Start"
+                   FontSize="20"
+                   TextColor="White"
+                   Grid.Row="2"
+                   Grid.ColumnSpan="2"/>
+
+            <Label x:Name="lblDuration"
+                   Text="Duration: 150ms"
+                   HorizontalOptions="Start"
+                   FontSize="20"
+                   TextColor="White"
+                   Grid.Row="3"
+                   Grid.ColumnSpan="2"/>
+
+            <Label Text="Coverage: 231px"
+                   HorizontalOptions="Start"
+                   FontSize="20"
+                   TextColor="White"
+                   Grid.Row="4"
+                   Grid.ColumnSpan="2"/>
+
+            <Label Text="Pressure: N/A"
+                   HorizontalOptions="Start"
+                   FontSize="20"
+                   TextColor="White"
+                   Grid.Row="5"
+                   Grid.ColumnSpan="2"/>
+
+            <Button x:Name="btnConfirm"
+                    Text="Confirm" 
+                    FontSize="Medium"
+                    TextColor="Black"
+                    Grid.Row="6" Grid.Column="2"
+                    Margin="20"
+                    Clicked="OnNextPageButtonClickedConfirm"></Button>
+
+            <Button x:Name="btnBack"
+                    Text="Back" 
+                    FontSize="Medium"
+                    TextColor="Black"
+                    Grid.Row="6" Grid.Column="1"
+                    Margin="20"
+                    Clicked="OnNextPageButtonClickedBack"></Button>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

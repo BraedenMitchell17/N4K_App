@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NFTAppV3.Views.ShareConfirmPage">
+    <ContentPage.Content>
+        <Grid RowDefinitions="auto" ColumnDefinitions="2" BackgroundColor="Black">
+            <!--<Label Text="Share My Kiss"               
+                   HorizontalOptions="Center"
+                   FontSize="40"
+                   TextColor="White"
+                   Grid.Row="1" Grid.ColumnSpan="3"/>-->
+
+            <Button x:Name="btnEmail"
+                    Text="Email"
+                    FontSize="Medium"
+                    TextColor="Black"
+                    Grid.Row="1" Grid.Column="1"
+                    Margin="20"></Button>
+
+            <Button x:Name="btnFacebook"
+                    Text="Facebook"
+                    FontSize="Medium"
+                    TextColor="Black"
+                    Grid.Row="1" Grid.Column="2"
+                    Margin="20"></Button>
+
+            <Button x:Name="btnFacebookMessenger"
+                    Text="Facebook Messanger"
+                    FontSize="Medium"
+                    TextColor="Black"
+                    Grid.Row="2" Grid.Column="1"
+                    Margin="20"></Button>
+
+            <Button x:Name="btnTwitter"
+                    Text="Twitter"
+                    FontSize="Medium"
+                    TextColor="Black"
+                    Grid.Row="2" Grid.Column="2"
+                    Margin="20"></Button>
+
+            <Button x:Name="btnLinkedIn"
+                    Text="LinkedIn"
+                    FontSize="Medium"
+                    TextColor="Black"
+                    Grid.Row="3" Grid.Column="1"
+                    Margin="20"></Button>
+
+            <Button x:Name="btnInstagram"
+                    Text="Instagram"
+                    FontSize="Medium"
+                    TextColor="Black"
+                    Grid.Row="3" Grid.Column="2"
+                    Margin="20"></Button>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
